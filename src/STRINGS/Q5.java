@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Q5 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Enter A String :-");
-        String s = sc.nextLine();
+        String s = input.nextLine();
         System.out.println("Enter a Substring Of The Entered String :-");
-        String sub = sc.nextLine();
+        String sub = input.nextLine();
         System.out.println("Enter A New Substring :-");
-        String newSub = sc.nextLine();
+        String newSub = input.nextLine();
         System.out.println(s.replace(sub, newSub));
     }
 }

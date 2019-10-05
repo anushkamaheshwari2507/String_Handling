@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Q4 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
+        Scanner input = new Scanner(System.in);
+        String s = input.nextLine();
         String g = "";
         int c = 1;
         for (int i = 0; i < s.length(); i++) {
